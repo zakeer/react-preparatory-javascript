@@ -66,3 +66,46 @@ switch(day) {
     console.log(`We are fasting...`)
 }
 ```
+
+### Loops 
+Loops allow you to execute a block of code multiple times. 
+
+- `for` loop
+- `while` loop
+- `do ...while` loop
+
+#### `for` loop
+```javascript
+for(initialization; condition; increment/decrement) {
+  // code to execute
+}
+
+
+const fruits = ['apple', 'banana', 'kiwi'];
+for(let i=0; i < fruits.length; i++) {
+  console.log( fruits[i] );
+}
+```
+
+#### `while` loop
+```javascript
+let initialization;
+while(condition) {
+  // code to execute
+  increment or decrement
+}
+
+const fruits = ['apple', 'banana', 'kiwi'];
+let i = 0;
+while(i < fruits.length) {
+  console.log( fruits[i] );
+  i++;
+}
+
+
+do {
+
+} while (condition)
+```
+
+
