@@ -22,13 +22,13 @@ console.log(mixed[2].key); // 'value'
 ---
 #### Adding Elements
 - `.push()`: adds an element to the end of an array.
-```javascript
+```javascript (return length of array)
 const fruits = ['apple', 'banana', 'cherry'];
 fruits.push('date');
 console.log(fruits); // ['apple', 'banana', 'cherry', 'date']
 ```
 
-- `.unshift()`: adds an element to the beginning of an array.
+- `.unshift()`: adds an element to the beginning of an array. (return length of array)
 ```javascript
 const fruits = ['apple', 'banana', 'cherry'];
 fruits.unshift('date');
@@ -37,14 +37,14 @@ console.log(fruits); // ['date', 'apple', 'banana', 'cherry']
 <br>  
 
 #### Removing Elements
-- `.pop()`: emoves the last element of an array.
-```javascript
+- `.pop()`: removes the last element of an array.
+```javascript (return value of removed item)
 const fruits = ['apple', 'banana', 'cherry'];
 fruits.pop();
 console.log(fruits); // ['apple', 'banana']
 ```
 
-- `shift()`: removes the first element of an array.array.
+- `shift()`: removes the first element of an array.array. (return value of removed item)
 ```javascript
 const fruits = ['apple', 'banana', 'cherry'];
 fruits.shift();
