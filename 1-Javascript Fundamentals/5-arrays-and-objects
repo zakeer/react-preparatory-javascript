@@ -1,0 +1,120 @@
+# Arrays and Objects
+
+## Arrays
+- An array is a collection of elements of any data type.
+- Arrays can hold strings, numbers, objects, or other arrays.
+- Elements in an array are indexed starting at 0.
+
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+const fruits = ['apple', 'banana', 'cherry'];
+const mixed = [1, 'apple', {key: 'value'}, [2, 3, 4]];
+```
+
+You can access elements in an array using the index:
+```javascript
+console.log(numbers[0]); // 1
+console.log(fruits[1]); // 'banana'
+console.log(mixed[2].key); // 'value'
+```
+
+### Array Methods
+---
+#### Adding Elements
+- `.push()`: adds an element to the end of an array.
+```javascript (return length of array)
+const fruits = ['apple', 'banana', 'cherry'];
+fruits.push('date');
+console.log(fruits); // ['apple', 'banana', 'cherry', 'date']
+```
+
+- `.unshift()`: adds an element to the beginning of an array. (return length of array)
+```javascript
+const fruits = ['apple', 'banana', 'cherry'];
+fruits.unshift('date');
+console.log(fruits); // ['date', 'apple', 'banana', 'cherry']
+```
+<br>  
+
+#### Removing Elements
+- `.pop()`: removes the last element of an array.
+```javascript (return value of removed item)
+const fruits = ['apple', 'banana', 'cherry'];
+fruits.pop();
+console.log(fruits); // ['apple', 'banana']
+```
+
+- `shift()`: removes the first element of an array.array. (return value of removed item)
+```javascript
+const fruits = ['apple', 'banana', 'cherry'];
+fruits.shift();
+console.log(fruits); // ['banana', 'cherry']
+```
+
+
+## Objects
+- An object is a collection of `key:value` pairs.
+- Objects can hold any type of data as values.
+- Keys must be `strings` or `symbols`.
+```javascript
+const person = {
+  name: 'John',
+  age: 30,
+  isStudent: true,
+  address: {
+    street: '123 Main St',
+    city: 'Anytown',
+    state: 'CA'
+  },
+  skills: [
+    "html", "css", "javascript"
+  ],
+  experiences: [
+    { title: "Developer", company: "Microsoft" },
+    { title: "Junior Developer", company: "Google" },
+  ]
+};
+```
+
+- You can access values in an object using dot notation or bracket notation:
+```javascript
+console.log(person.name); // 'John'
+console.log(person['age']); // 30
+console.log(person.address.city); // 'Anytown'
+
+const presentCompany = person.experiences[0];
+const presentCompanyName = presentCompany.company // 'Microsoft' 
+```
+
+### Object Methods
+---
+#### Adding Properties
+- you can add a new property to an object by assigning a `value` to a new `key`:
+```javascript
+const person = {
+  name: 'John',
+  age: 30
+};
+
+person.isStudent = true;
+console.log(person); // { name: 'John', age: 30, isStudent: true }
+```
+
+#### Removing Properties
+- You can remove a property from an object using the `delete` keyword::
+```javascript
+const person = {
+  name: 'John',
+  age: 30,
+  isStudent: true
+};
+
+delete person.isStudent;
+console.log(person); // { name: 'John', age: 30 }
+```
+
+
+### Conclusion
+- Arrays and objects are essential data structures in JavaScript.
+- Arrays are used to store collections of data, and objects are used to store key-value pairs.
+- Both arrays and objects have built-in methods that allow you to manipulate them in various ways

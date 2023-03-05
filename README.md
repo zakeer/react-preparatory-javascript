@@ -5,7 +5,7 @@
 - [x] Variables, data types and operators
 - [x] Control structures (if/else, switch statements, loops)
 - [x] Functions and scope
-- [ ] Arrays and objects
+- [x] Arrays and objects
 - [ ] ES6 features (let and const, arrow functions, template literals)
 
 
