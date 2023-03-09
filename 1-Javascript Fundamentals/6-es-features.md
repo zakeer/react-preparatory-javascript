@@ -267,7 +267,7 @@ const [a, b = 3] = [1]
 
 - PARSING AN ARRAY RETURNED FROM A FUNCTION CALL
 ```javascript
-const getNumbers() => [1, 2, 3]
+const getNumbers = () => [1, 2, 3]
 const [a, b, c] = getNumbers()
 // a = 1, b = 2, c = 3
 ```
@@ -278,7 +278,7 @@ const [one, two, ...rest] = [1, 2, 3, 4, 5]
 // one = 1, two = 2, rest = [3, 4, 5]
 ```
 
-#### Array destructuring
+#### Object destructuring
 - BASIC VARIABLE ASSIGNMENT
 ```javascript
 const user = {
