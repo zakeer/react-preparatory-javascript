@@ -10,9 +10,9 @@
 
 
 ### Class 2: Javascript Functions
-- [ ] Understanding functions 
-- [ ] function declaration vs function expression
-- [ ] Passing arguments to functions
+- [x] Understanding functions 
+- [x] function declaration vs function expression
+- [x] Passing arguments to functions
 - [ ] Default parameters
 - [ ] Higher-order functions
 - [ ] Arrow functions
