@@ -6,7 +6,7 @@
 - [x] Control structures (if/else, switch statements, loops)
 - [x] Functions and scope
 - [x] Arrays and objects
-- [ ] ES6 features (let and const, arrow functions, template literals)
+- [x] ES6 features (let and const, arrow functions, template literals)
 
 
 ### Class 2: Javascript Functions
