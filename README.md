@@ -1,6 +1,8 @@
 ## Javascript Concepts before starting ReactJS
 
-### Class 1: Javascript Fundamentals
+--- 
+
+### [Class 1: Javascript Fundamentals](/1-Javascript%20Fundamentals/)
 - [x] Introduction to Javascript
 - [x] Variables, data types and operators
 - [x] Control structures (if/else, switch statements, loops)
@@ -9,7 +11,10 @@
 - [x] ES6 features (let and const, arrow functions, template literals)
 
 
-### Class 2: Javascript Functions
+
+--- 
+
+### [Class 2: Javascript Functions](/1-Javascript-Functions/)
 - [x] Understanding functions 
 - [x] function declaration vs function expression
 - [x] Passing arguments to functions
@@ -19,6 +24,9 @@
 - [ ] IIFE (Immediately Invoke Function Expression)
 - [ ] Closures and their importance
 
+
+--- 
+
 ### Class 3: Objects and Classes
 - [ ] Creating objects 
 - [ ] Prototypal inheritance vs classical inheritance
@@ -27,6 +35,9 @@
 - [ ] Object spread operator
 - [ ] Object clone and copy
 
+
+--- 
+
 ### Class 4: Asynchronous Javascript
 - [ ] Introduction to asynchronous Javascript
 - [ ] Callback functions
@@ -34,6 +45,9 @@
 - [ ] Handling promises rejection and chaining
 - [ ] Async/await and its benefits
 - [ ] Using the fetch API for asynchronous data fetching
+
+
+--- 
 
 ### Class 5: Modules
 - [ ] Introduction to modules
