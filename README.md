@@ -14,7 +14,7 @@
 
 --- 
 
-### [Class 2: Javascript Functions](/1-Javascript-Functions/)
+### [Class 2: Javascript Functions](/2-Javascript-Functions/)
 - [x] Understanding functions 
 - [x] function declaration vs function expression
 - [x] Passing arguments to functions
