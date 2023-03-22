@@ -15,14 +15,14 @@
 --- 
 
 ### [Class 2: Javascript Functions](/2-Javascript-Functions/)
-- [x] Understanding functions 
-- [x] function declaration vs function expression
+- [x] [Understanding functions](/2-Javascript-Functions/1-understanding-functions.md) 
+- [x] [function declaration vs function expression](/2-Javascript-Functions/2-function-declaration-vs-function-expression.md)
 - [x] Passing arguments to functions
-- [ ] Default parameters
-- [ ] Higher-order functions
+- [x] Default parameters
+- [x] [Higher-order functions](/2-Javascript-Functions/3-higher-order-functions.md)
 - [ ] Arrow functions
-- [ ] IIFE (Immediately Invoke Function Expression)
-- [ ] Closures and their importance
+- [x] [IIFE (Immediately Invoke Function Expression)](/2-Javascript-Functions/5-immediately-invoke-function-expression.md)
+- [ ] [Closures and their importance](/2-Javascript-Functions/6-closures-and-their-importance.md)
 
 
 --- 
