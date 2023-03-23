@@ -22,7 +22,7 @@
 - [x] [Higher-order functions](/2-Javascript-Functions/3-higher-order-functions.md)
 - [ ] Arrow functions
 - [x] [IIFE (Immediately Invoke Function Expression)](/2-Javascript-Functions/5-immediately-invoke-function-expression.md)
-- [ ] [Closures and their importance](/2-Javascript-Functions/6-closures-and-their-importance.md)
+- [x] [Closures and their importance](/2-Javascript-Functions/6-closures-and-their-importance.md)
 
 
 --- 
