@@ -27,10 +27,10 @@
 
 --- 
 
-### Class 3: Objects and Classes
-- [ ] Creating objects 
-- [ ] Prototypal inheritance vs classical inheritance
-- [ ] Classes and their syntax
+### [Class 3: Objects and Classes](/3-objects-and-classes/)
+- [ ] [Creating objects](/3-objects-and-classes/1-creating-objects.md) 
+- [ ] [Prototypal inheritance vs classical inheritance](/3-objects-and-classes/2-prototypal-inheritance-vs-classical-inheritance.md)
+- [ ] [Classes and their syntax](/3-objects-and-classes/3-classes-and-their-syntax.md)
 - [ ] Object desctructing
 - [ ] Object spread operator
 - [ ] Object clone and copy

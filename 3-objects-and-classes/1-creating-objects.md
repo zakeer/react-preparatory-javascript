@@ -104,6 +104,36 @@ person.address.city = 'Othertown';
 console.log(person); // Output: { name: 'Jane', age: 35, hobbies: ['reading', 'traveling'], address: { street: '123 Main St', city: 'Othertown', state: 'CA', zip: '12345' } }
 ```
 
+---
+
+### Constructor Functions
+A constructor function is a function that creates objects using the new keyword. 
+
+Here's an example:
+```javascript
+function Person(firstName, lastName, age, hobbies) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.age = age;
+  this.hobbies = hobbies;
+  this.getFullName = function() {
+    return `${this.firstName} ${this.lastName}`;
+  };
+}
+
+const person1 = new Person('John', 'Doe', 30, ['reading', 'traveling']);
+const person2 = new Person('Jane', 'Doe', 25, ['hiking', 'painting']);
+
+console.log(person1.firstName); // Output: John
+console.log(person2.hobbies[0]); // Output: hiking
+console.log(person1.getFullName()); // Output: John Doe
+```
+In this example, we have defined a constructor function `Person` that creates objects with the `firstName`, `lastName`, `age`, `hobbies`, and `getFullName` properties. 
+
+We have created two instances of the Person object using the `new` keyword.
+
+---
+
 ### Classes
 Classes are a simpler and more concise way of defining objects in JavaScript. 
 
