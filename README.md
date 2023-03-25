@@ -28,7 +28,7 @@
 --- 
 
 ### [Class 3: Objects and Classes](/3-objects-and-classes/)
-- [ ] [Creating objects](/3-objects-and-classes/1-creating-objects.md) 
+- [x] [Creating objects](/3-objects-and-classes/1-creating-objects.md) 
 - [ ] [Prototypal inheritance vs classical inheritance](/3-objects-and-classes/2-prototypal-inheritance-vs-classical-inheritance.md)
 - [ ] [Classes and their syntax](/3-objects-and-classes/3-classes-and-their-syntax.md)
 - [ ] Object desctructing

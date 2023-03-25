@@ -332,4 +332,102 @@ hafeez.info();
 printDetails.call(zakeer);
 ```
 
+```javascript
+function Employee(name, job, location) {
+  this.name = name;
+  this.job = job;
+  
+  var jobLocation = location;
+  
+  this.workingLocation = jobLocation;
+  
+  
+}
+
+
+const shoyab = Employee("Shoyab", "Engineer", "Hyderabad");
+console.log(shoyab);
+
+const apsar = new Employee("Apsar", "UI Dev", "Guntur");
+console.log(apsar);
+```
+
+```javascript
+function Person() {
+  
+  this.name = "Zakeer"
+  this.info = function() {
+    console.log(this.name);
+  }
+  
+}
+
+class Employee {
+  
+  name = "Apsar"
+  
+  info() {
+     console.log(this.name);
+  }
+  
+}
+
+const personOne = new Person();
+console.log(personOne);
+
+
+const employeeOne = new Employee();
+console.log(employeeOne);
+
+personOne.info();
+employeeOne.info();
+```
+
+```javascript
+function Person(username, userage) {
+  this.name = username;
+  this.age = userage;
+}
+
+const personOne = new Person();
+console.log(personOne);
+
+const personTwo = new Person("Chisty");
+console.log(personTwo);
+
+const personThree = new Person("Syed", 30);
+console.log(personThree);
+```
+
+```javascript
+/*
+function Person(username, userage) {
+  this.name = username;
+  this.age = userage;
+  
+  this.methodName = function(param) {}
+}
+*/
+
+
+class Person {
+  name;
+  age;
+  
+  constructor(username, userage) {
+    this.name = username;
+    this.age = userage;
+  }
+}
+
+const personOne = new Person();
+console.log(personOne);
+
+const personTwo = new Person("Apsar");
+console.log(personTwo);
+
+const personThree =new Person("Zahid", 24);
+console.log(personThree);
+```
+
 ---
