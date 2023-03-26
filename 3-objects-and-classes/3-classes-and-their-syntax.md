@@ -76,3 +76,83 @@ student.greet(); // Output: Hello, my name is Jane
 student.study(); // Output: Studying...
 ```
 In this example, we have created a `Student` class that `extends` the `Person` class. We have called the `super` keyword in the constructor method to initialize the properties of the `Person` class, and we have added a new property `grade` to the `Student` class. We have also added a `study()` method to the `Student` class.
+
+---
+
+### Practise Code
+```javascript
+class Person {
+  
+  name;
+  age;
+  
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  
+  info() {
+    console.log(`${this.name} is ${this.age} old`)
+  }
+  
+  updateAge = function(newAge) { // newAge = 22
+    this.age = newAge;
+  }
+
+  incrementAge = () => {
+    this.age++;
+  }  
+
+}
+
+const user = new Person("Shaik Zahid", 24);
+console.log(user);
+
+console.log(user.age); // 24
+console.log(user.name); // Shaik Zahid
+console.log(user.job); // undefined
+
+user.incrementAge();
+console.log(user.age); // ?
+
+user.updateAge(22);
+console.log(user.age); // ?
+
+user.info();
+```
+
+```javasript
+class Person {
+  
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  
+  info() {
+    console.log(`${this.name} is ${this.age} years old`)
+  }
+  
+}
+const zakeer = new Person("Zakeer", 31);
+
+console.log(zakeer);
+zakeer.info();
+zakeer.details();
+
+class Student extends Person {
+  constructor(name, age, course) {
+    super(name, age);
+    this.course = course;
+  }
+  
+  details() {
+    console.log(`${this.name} is taken ${this.course} course`)
+  }
+}
+
+const shoyab = new Student("Shoyab", 25, "Fullstack");
+console.log(shoyab);
+shoyab.info()
+shoyab.details();
+```

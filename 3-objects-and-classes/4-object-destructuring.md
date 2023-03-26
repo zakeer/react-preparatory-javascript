@@ -90,4 +90,70 @@ Object destructuring is a powerful feature in JavaScript that allows you to extr
 
 This can make your code more concise and easier to read, and it also allows you to set default values for variables in case the property doesn't exist in the object.
 
+---
+
+### Practise Code
+```javascript
+class Person {
+  constructor(name, age, job) {
+    this.name = name;
+    this.age = age;
+    this.job = job;
+  }  
+}
+
+const user = new Person("Apsar", 25, "UI Engineer");
+
+console.log(user);
+
+// const name = user.name;
+// const age = user.age;
+// const job = user.job;
+
+const { name, age, job, city } = user;
+
+console.log(name);
+console.log(age);
+console.log(job);
+console.log(city); // ?
+
+
+const person = {
+  name: 'John',
+  age: 30,
+  hobbies: ['reading', 'traveling'],
+  address: {
+    street: '123 Main St',
+    city: 'Anytown',
+    state: 'CA',
+    zip: '12345'
+  }
+};
+
+// const { hobbies, address } = person;
+// const { street } = address;
+
+const {  name, age, hobbies, address: { zip }, address } = person // Here error in duplicate name identifier
+console.log(zip)
+```
+
+```javascript
+const person = {
+  name: 'John',
+  age: 30,
+  hobbies: ['reading', 'traveling'],
+  address: {
+    street: '123 Main St',
+    city: 'Anytown',
+    state: 'CA',
+    zip: '12345'
+  }
+};
+
+
+const { job: userJob = "Developer" } = person;
+console.log(userJob);
+
+console.log(person.job);
+```
 
