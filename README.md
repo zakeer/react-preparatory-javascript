@@ -32,8 +32,8 @@
 - [x] [Prototypal inheritance vs classical inheritance](/3-objects-and-classes/2-prototypal-inheritance-vs-classical-inheritance.md)
 - [x] [Classes and their syntax](/3-objects-and-classes/3-classes-and-their-syntax.md)
 - [x] [Object desctructing](/3-objects-and-classes/4-object-destructuring.md)
-- [ ] [Object spread operator](/3-objects-and-classes/5-object-spread-operator.md)
-- [ ] [Object clone and copy](/3-objects-and-classes/6-object-clone-and-copy.md)
+- [x] [Object spread operator](/3-objects-and-classes/5-object-spread-operator.md)
+- [x] [Object clone and copy](/3-objects-and-classes/6-object-clone-and-copy.md)
 
 
 --- 
