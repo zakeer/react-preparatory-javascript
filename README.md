@@ -38,20 +38,18 @@
 
 --- 
 
-### Class 4: Asynchronous Javascript
+### Class 4: Modules
+- [ ] [Introduction to modules](/4-modules/1-introduction-to-modules.md)
+- [ ] [Exporting and importing modules](/4-modules/2-exporting-and-importing-modules.md)
+- [ ] [Importing third-party modules](/4-modules/3-importing-third-party-modules.md)
+- [ ] [Organizing modules](/4-modules/4-organizing-modules.md)
+
+---
+
+### Class 5: Asynchronous Javascript
 - [ ] Introduction to asynchronous Javascript
 - [ ] Callback functions
 - [ ] Promises
 - [ ] Handling promises rejection and chaining
 - [ ] Async/await and its benefits
 - [ ] Using the fetch API for asynchronous data fetching
-
-
---- 
-
-### Class 5: Modules
-- [ ] Introduction to modules
-- [ ] Exporting and importing modules
-- [ ] Default exports and named exports
-- [ ] Importing third-party modules
-- [ ] Organizing modules
