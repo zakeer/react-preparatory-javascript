@@ -39,10 +39,10 @@
 --- 
 
 ### Class 4: Modules
-- [ ] [Introduction to modules](/4-modules/1-introduction-to-modules.md)
-- [ ] [Exporting and importing modules](/4-modules/2-exporting-and-importing-modules.md)
-- [ ] [Importing third-party modules](/4-modules/3-importing-third-party-modules.md)
-- [ ] [Organizing modules](/4-modules/4-organizing-modules.md)
+- [x] [Introduction to modules](/4-modules/1-introduction-to-modules.md)
+- [x] [Exporting and importing modules](/4-modules/2-exporting-and-importing-modules.md)
+- [x] [Importing third-party modules](/4-modules/3-importing-third-party-modules.md)
+- [x] [Organizing modules](/4-modules/4-organizing-modules.md)
 
 ---
 
