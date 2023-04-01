@@ -49,8 +49,8 @@
 ### Class 5: React Native Introduction
 - [x] [**View** - basic building block of UI](5-react-native-introduction/1-view.md)
 - [x] [**Component** - reusable piece of code that represents a UI element](5-react-native-introduction/2-component.md)
-- [ ] [**Props** - short for "properties" and are used to pass data](5-react-native-introduction/3-props.md)
-- [ ] [**Style** - a set of properties that define the appearance of a UI](/5-react-native-introduction/4-style.md)
+- [x] [**Props** - short for "properties" and are used to pass data](5-react-native-introduction/3-props.md)
+- [x] [**Style** - a set of properties that define the appearance of a UI](/5-react-native-introduction/4-style.md)
 - [ ] [**Layout** and **Flexbox** - process of positioning UI elements on the screen](/5-react-native-introduction/5-layout.md)
 - [ ] [**Container** - view that is used to hold other views or components](/5-react-native-introduction/6-containers.md)
 - [ ] [**Recap**](5-react-native-introduction/7-recap.md)
