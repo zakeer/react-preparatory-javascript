@@ -81,4 +81,55 @@ Both prototypal inheritance and classical inheritance have their advantages and 
 
 In JavaScript, prototypal inheritance is more commonly used, as it is the natural way of creating objects. However, classical inheritance is still useful in certain situations, such as when you need to create complex hierarchies of objects with a clear structure.
 
+---
+
+### Practise
+
+```javascript
+// class Parent {}
+
+// class child extends Parent {}
+
+
+class Employee {
+  
+  name;
+  address;
+  phoneNumber;
+  experience;
+  
+  constructor(name, address, phoneNumber, experience) {
+    this.name = name;
+    this.address = address;
+    this.phoneNumber = phoneNumber;
+    this.experience = experience
+  }
+};
+
+
+class Programmer extends Employee {
+  constructor(name, address, phoneNumber, experience, programmingLanguages) {
+    super(name, address, phoneNumber, experience);
+    this.languages = programmingLanguages;
+  }
+}
+
+const employeeOne = new Employee("Syed", "Guntur", "9876543210", "3years");
+console.log(employeeOne);
+
+const employeeTwo = new Employee("Apsar", "Hyderabad", "8978675645", "5years");
+console.log(employeeTwo);
+
+
+const programmerOne = new Programmer(
+  "Muskan", 
+  "Hyderabad", 
+  "6789786789", 
+  "2years", 
+  ["Javascript", "HTML", "CSS"]
+);
+
+console.log(programmerOne);
+```
+
 
